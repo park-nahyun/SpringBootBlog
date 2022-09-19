@@ -1,0 +1,15 @@
+# mariaDB
+#spring.datasource.driverClassName=org.mariadb.jdbc.Driver
+#spring.datasource.url=jdbc:mariadb://localhost:123/test
+#spring.datasource.username=tester
+#spring.datasource.password=Arisys123$
+#root.xml, server.xml 등등을 한 번에 여기다 할 수 있으면 됨.
+
+spring:
+  datasource:
+    driver-class-name: org.mariadb.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:123/test
+    username: tester
+    password: Arisys123$
+    
+  
